@@ -9,21 +9,23 @@
 ---------------------*/
 body {
     font-family: 'Satisfy', cursive;
+    margin: 0;
 }
 h1, h4 {
     font-family: 'Caveat', cursive;
     font-weight: 400;
-    text-align: center;
+    
 }
 p{
     line-height: 20px;
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 70px;
 }
 h4 {
-    font-size: 40px;
+    font-size: 35px;
+    margin-top: 0;
 }
 a{
     color: #EF233C;
@@ -31,6 +33,21 @@ a{
 a:hover {
     text-decoration: none;
 }
+.content-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+.col-narrow {
+    width: 30%;
+    float: left;
+}
+.col-wide {
+    width: 70%;
+    float: left;
+}
+
 
 
 /* Header and Footer
@@ -39,8 +56,30 @@ header, footer {
     background: #2B2D42;
     color: #8D99AE;
 }
+/*header*/
+.profile-img {
+   
+    border-radius: 50%;
+
+}
+header h1, header h4{
+    text-align: center;
+}
+
 header h1, header h4 {
     color: #EDF2F4;
+    margin: 0;
+}
+/*footer*/
+footer {
+    text-align: center;
+}
+
+}
+.contact-info a {
+/*    background: white;*/
+    padding: 10px;
+    display: inline-block;
 }
 
 /* About me
@@ -60,4 +99,62 @@ header h1, header h4 {
 --------------------------*/
 .interest {
     background: #8D99AE;
+}
+
+/*Contact me
+--------------------------*/
+.contact-me{
+    text-align: center;
+}
+
+/*main menu
+--------------------------*/
+.main-menu {
+    text-align: center;
+}
+
+/*navigation
+--------------------------*/
+nav {
+	position: static
+	right: 10px;
+	top: 10px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 30px;
+}
+
+nav>ul>li {
+	display: inline-block;
+	vertical-align: top;
+	width: 150px;
+    
+}
+
+nav a {
+	padding: 5px 20px;
+	text-decoration: none;
+	background: #EDF2F4;
+	border: 2px solid #505;
+	display: block;
+	border-radius: 20px;
+	text-align: center;
+}
+
+nav ul li:hover ul li a {
+	display: block;
+	background: #2B2D42;
+	border-radius: 20px;
+	border: 1px solid #c0c;
+	padding: 10px;
+	margin: 10px 0px;
+	font-size: 14px;
+}
+
+nav li:hover a,
+nav ul li ul li:hover a {
+	background: #08a;
+	border-color: #fff;
 }

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>Md adnanul Chowdhury | Personal Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Dancing+Script|Pacifico|Satisfy" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <style>
         input[type=text],
@@ -36,29 +37,38 @@
             background-color: #f2f2f2;
             padding: 20px;
         }
+
+
     </style>
 </head>
 
 <body>
     <!--navigation-->
     <header>
-        <h1 class="title">Md adnanul Chowdhury</h1>
-        <h4>Mechanical Engineer | Junior Web Developer</h4>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact me</a></li>
+        <div class="content-wrap">
+
+            <img class="profile-img col-narrow" src="image/mdadnanul.JPG" height="275" width="300">
+            <div class="col-wide">
+            <h1>Md adnanul Chowdhury</h1>
+            <h4>Mechanical Engineer | Junior Web Developer</h4>
+            <nav>
+                <ul class="main-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
 
 
-            </ul>
-        </nav>
+                </ul>
+            </nav>
+            </div>
+        </div>
     </header>
     <div>
-        <h2>Contact me</h2>
+        <h2 class="contact-me">Contact me</h2>
 
     </div>
 
-    <div class="container">
+    <section class="contact-form">
+    <div class="content-wrap">
         <form action="/action_page.php">
 
             <label for="fname">First Name</label>
@@ -76,5 +86,6 @@
 
         </form>
     </div>
+    </section>
 </body>
 </html>

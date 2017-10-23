@@ -1,0 +1,63 @@
+/* Color Pallette
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+*/
+
+/* Global styles
+---------------------*/
+body {
+    font-family: 'Satisfy', cursive;
+}
+h1, h4 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    text-align: center;
+}
+p{
+    line-height: 20px;
+}
+
+h1 {
+    font-size: 80px;
+}
+h4 {
+    font-size: 40px;
+}
+a{
+    color: #EF233C;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Header and Footer
+--------------------------*/
+header, footer {
+    background: #2B2D42;
+    color: #8D99AE;
+}
+header h1, header h4 {
+    color: #EDF2F4;
+}
+
+/* About me
+--------------------------*/
+.about me {
+    background: #EDF2F4;
+}
+
+/* Education
+--------------------------*/
+.education {
+    background: #8D99AE;
+}
+
+
+/* Interest
+--------------------------*/
+.interest {
+    background: #8D99AE;
+}
